@@ -95,9 +95,25 @@ Codi: **ALUMNEDEL**
 
 >Títol: Eliminar Alumnes
 
->Actor: ADMIN, `¿TUTOR?`
+>Actor: ADMIN
 
 >Descripció: Permet eliminar/esborrar alumnes de l'aplicatiu.
+
+Codi: **ALUMNEASSIGN**
+
+>Títol: Assignar Alumne a Estudis [grup(s)/subgrup(s)].
+
+>Actor: ADMIN, TUTOR
+
+>Descripció: Permet assignar/associar els diversos alumnes als grups o subgrups desitjats, s'enten per matrícula.
+
+Codi: **ALUMNETUTORIA**
+
+>Títol: Assignar Alumne a Tutoria.
+
+>Actor: ADMIN, TUTOR
+
+>Descripció: Permet assignar/associar els diversos alumnes a les tutories corresponents.
 
 ## ESTRUCTURA LECTIVA / PLA D'ESTUDIS (ANY ACADÈMIC)
 
@@ -140,14 +156,6 @@ Codi: **STUDIESDEL**
 >Actor: ADMIN
 
 >Descripció: Permet eliminar/esborrar un element de l'estructura lectiva.
-
-Codi: **STUDIESASSIGN**
-
->Títol: Assignar Alumne a Estudis [grup(s)/subgrup(s)]
-
->Actor: ADMIN, TUTOR
-
->Descripció: Permet assignar/associar els diversos alumnes als grups o subgrups desitjats.
 
 Codi: **STUDIESTEACH**
 
@@ -437,3 +445,11 @@ Codi: **CHANGEPASS**
 >Actor: ADMIN, TUTOR, DOCENT
 
 >Descripció: Permet a l'usuari canviar la contrasenya per una de nova.
+
+Codi: **LOGOUT**
+
+>Títol: Tancar Sessió/Desconectar-se de l'Aplicació
+
+>Actor: ADMIN, TUTOR, DOCENT
+
+>Descripció: Permet a l'usuari sortir de la seva sessió.
